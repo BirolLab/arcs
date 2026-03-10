@@ -33,7 +33,7 @@ jobs:
     displayName: Run pylint
   - script: |
       source activate arcs_CI
-      export CXXFLAGS="$CXXFLAGS -D_FORTIFY_SOURCE=0"
+      export CXXFLAGS="-DCATCH_CONFIG_NO_POSIX_SIGNALS $CXXFLAGS"
       make distcheck
     displayName: Compile ARCS with make distcheck
   - script: |
