@@ -1,9 +1,9 @@
-[![Release](https://img.shields.io/github/release/bcgsc/arcs.svg)](https://github.com/bcgsc/arcs/releases)
-[![Downloads](https://img.shields.io/github/downloads/bcgsc/arcs/total?logo=github)](https://github.com/bcgsc/arcs/releases)
+[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)
+[![Downloads](https://img.shields.io/github/downloads/BirolLab/arcs/total?logo=github)](https://github.com/BirolLab/arcs/releases)
 [![Conda](https://img.shields.io/conda/dn/bioconda/arcs?label=Conda)](https://anaconda.org/bioconda/ARCS)
-[![Issues](https://img.shields.io/github/issues/bcgsc/arcs.svg)](https://github.com/bcgsc/arcs/issues)
+[![Issues](https://img.shields.io/github/issues/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/issues)
 
-![Logo](https://github.com/bcgsc/arcs/blob/master/arcs-logo.png)
+![Logo](https://github.com/BirolLab/arcs/blob/master/arcs-logo.png)
 
 # ARCS
 
@@ -90,7 +90,7 @@ The ARCS+LINKS pipeline requires two input files:
 * Reads file in fastq format `*.fq.gz` (or fasta format `*.fa.gz` if using long reads)
   * For linked reads, ARCS expects an interleaved linked reads file (Barcode sequence expected in the BX tag of the read header or in the form "@readname_barcode" ; Run [Long Ranger basic](https://support.10xgenomics.com/genome-exome/software/pipelines/latest/what-is-long-ranger) on raw chromium reads to produce this interleaved file)
 
-The Makefile located here: bin/arcs-make will run the full ARCS pipeline. It will also optionally run the misassembly corrector [Tigmint](https://github.com/bcgsc/tigmint) prior to scaffolding with ARCS. If you are running Tigmint in your pipeline, please ensure that all input files are in your current working directory.
+The Makefile located here: bin/arcs-make will run the full ARCS pipeline. It will also optionally run the misassembly corrector [Tigmint](https://github.com/BirolLab/tigmint) prior to scaffolding with ARCS. If you are running Tigmint in your pipeline, please ensure that all input files are in your current working directory.
 
 There are three steps to the pipeline:
 
@@ -204,7 +204,7 @@ FFFFFFFGFGFFGFDFGFFFFFFFFFFFGFFF@FFFFFFFFFFFF@FFFFFFFFFGGFFEFEFFFF?FFFFGFFFGFFFF
 
 ### About ARCS/ARKS <a name=about></a>
 
-Thank you for your [![Stars](https://img.shields.io/github/stars/bcgsc/arcs.svg)](https://github.com/bcgsc/arcs/stargazers) and for using, developing and promoting this free software!
+Thank you for your [![Stars](https://img.shields.io/github/stars/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/stargazers) and for using, developing and promoting this free software!
 
 
 ### Citing ARCS/ARKS/LINKS <a name=cite></a>
