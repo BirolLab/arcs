@@ -21,9 +21,9 @@
 static const char VERSION_MESSAGE[] = PROGRAM
     " " PACKAGE_VERSION "\n"
     "\n"
-    "http://www.bcgsc.ca/platform/bioinfo/software/links \n"
+    "https://github.com/BirolLab/LINKS \n"
     "We hope this code is useful to you - If you have any questions or suggestions, please open an "
-    "issue at https://github.com/bcgsc/arcs.\n"
+    "issue at https://github.com/BirolLab/arcs.\n"
     "If you use LINKS, ARCS code or ideas, please cite our work. \n"
     "\n"
     "LINKS and ARCS Copyright (c) 2014-present Canada's Michael Smith Genome Science Centre.  "

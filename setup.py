@@ -9,7 +9,7 @@ setuptools.setup(
     description="Scaffolding genome sequence assemblies using linked or long read sequencing data",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://bcgsc.github.io/arcs/",
+    url="https://github.com/BirolLab/arcs",
     license="GPLv3",
     python_requires=">=3",
     scripts=[
