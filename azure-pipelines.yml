@@ -33,6 +33,7 @@ jobs:
     displayName: Run pylint
   - script: |
       source activate arcs_CI
+      export CXXFLAGS="-U_FORTIFY_SOURCE $CXXFLAGS"
       make distcheck
     displayName: Compile ARCS with make distcheck
   - script: |
