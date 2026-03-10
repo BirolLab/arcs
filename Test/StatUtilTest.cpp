@@ -1,4 +1,5 @@
 #define CATCH_CONFIG_MAIN
+#define CATCH_CONFIG_NO_POSIX_SIGNALS
 #include "ThirdParty/Catch/catch.hpp"
 
 #include "Common/StatUtil.h"
