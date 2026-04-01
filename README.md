@@ -54,7 +54,7 @@ Because ARKS is not dependent on read alignments, it is generally much faster th
 * LINKS (tested on 1.8)
 * Google SparseHash
 * ABySS (if using long reads)
-* [btllib](https://github.com/bcgsc/btllib) (1.4.3+)
+* [btllib](https://github.com/BirolLab/btllib) (1.4.3+)
 
 
 ### Installation <a name=install></a>
